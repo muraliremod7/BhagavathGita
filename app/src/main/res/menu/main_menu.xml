@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search / will display always -->
+    <item android:id="@+id/foudation"
+        android:title="@string/about_foundation"
+        />
+
+    <!-- Location Found -->
+    <item android:id="@+id/bhagavathgeeta"
+        android:title="@string/about_bahagavathgita"
+        />
+
+    <!-- Refresh -->
+    <item android:id="@+id/gitajayanthi"
+        android:title="@string/gita_jayanthi_celebrations" />
+
+    <!-- Help -->
+    <item android:id="@+id/gallery"
+        android:title="@string/gallery"
+        android:showAsAction="never"/>
+
+    <!-- Check updates -->
+    <item android:id="@+id/sponsers"
+        android:title="@string/about_sponsers"
+        android:showAsAction="never" />
+    <!-- Check updates -->
+    <item android:id="@+id/donate"
+        android:title="@string/donate"
+        android:showAsAction="never" />
+    <!-- Check updates -->
+    <item android:id="@+id/aboutapp"
+        android:title="@string/about_app"
+        android:showAsAction="never" />
+</menu>
