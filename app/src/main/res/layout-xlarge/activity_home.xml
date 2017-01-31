@@ -12,15 +12,15 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
+            android:layout_height="60dp"
             android:background="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            android:layout_height="70dp" />
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
             app:tabMode="fixed"
             android:textAlignment="center"
             app:tabSelectedTextColor="@color/ButtonColor"
@@ -47,7 +47,7 @@
         android:id="@+id/footermain"
         android:background="@drawable/footer"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_gravity="bottom"
         android:layout_alignParentBottom="true">
     </RelativeLayout>

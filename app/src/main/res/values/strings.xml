@@ -526,5 +526,150 @@
         <item>Yercaud</item>
         <item>Zanskar</item>
     </string-array>
+    <string name="about_bhagavadgita_text">
+        Bhagavadgita, the Song Celestial, is a dialogue in nectarine poetry in which Bhagavan (Lord) Sri Krishna, the universal teacher, imparted knowledge of the Self and various other philosophical doctrines to Arjuna 5000 yrs. ago. Kurukshetra battlefield is the setting and Bharat (India) is the platform for the universal message of this Divine discourse of eternal relevance handed down for the well-being of humanity cutting across nations, creeds and ages.\n\n
+
+This Bhagavadgita, the summarized essence of the Upanishads, is a thriving philosophical treatise in 700 verses systematically divided into 18 chapters each one expounding one specific philosophical doctrine described as a YOGA. It is an integral part of the great epic Mahabharatha and is embedded in chapters 25-42 of Bhishmaparva as a compact, independent text and it is that way it became extremely popular and venerable.
+\n\n
+In our relentless struggle for existence even in critical and challenging situations the Bhagavadgita extends comfort and courage. It indicates the right path and makes us tread on it. The enormous influence it exercises on a human being transformed it into a great moral and ethical force. To tell us to do our allotted duty without fear or favour and with purity of mind, speech and body and dedicate the fruits thereof to God is its message of imperishable significance.
+\n\n
+All human beings without any distinction of age, gender and creed can read Bhagavadgita and live it to attain fulfillment in life. Bhagavadgita is not a religion - it is wisdom ! Bhagavadgita laid the path that leads us to an ideal way of life ! Bhagavadgita is the manual for attaining human excellence ! To those who practice ethical and spiritual disciplines it is the Kalpataru, the divine tree that fulfills the wishes !
+\n\n
+శ్రీమద్భగవద్గీత...
+భారతదేశం వేదికగా, 5000 సంవత్సరాల క్రితం సర్వదేశాలకు, సర్వ జాతులకు, సర్వ కాలాలకు వర్తించే విధంగా సమస్త మానవాళి శ్రేయస్సును ఆకాంక్షిస్తూ కురుక్షేత్ర సంగ్రామంలో, జగద్గురువైన శ్రీకృష్టుడు అర్జునునకు చేసిన జ్ఞానబోధ భగవద్గీత. సర్వోపనిషత్తుల సారమైన ఈ భగవద్గీత 18 అధ్యాయాల రూపంలో 700 శ్లోకాలుగా విలసిల్లుతోంది. ఇది ప్రసిద్ధ భారతీయ ఇతిహాసమైన ’మహాభారతము’లోని ’భీష్మపర్వము’లో 25-42 అధ్యాయాల మధ్య గ్రథితమై ఉంది. జీవన సమరంలో సంక్లిష్ట సమయాలలో కూడా మనోధైర్యాన్ని ప్రసాదిస్తూ, ధర్మబద్ధమైన మార్గాన్ని నిర్ధేశిస్తూ, కర్తవ్యాన్ని ఆచరింపచేసే మహాశక్తి భగవద్గీత. కర్తవ్యకర్మలను త్రికరణ శుద్ధిగా, ఫలితమును పరమాత్మకు అర్పించి, ఉద్విగ్నరహితుడై ఆచరింపమని చెప్పడమే ’భగవద్గీత’ సారాంశము. ’భగవద్గీత’ను సర్వకాల సర్వావస్థలలోను వయో, లింగ, వర్గ విభేధాలు లేకుండా మానవులందరూ పఠించి, ఆచరించి తరించవచ్చు.
+\n\n
+’భగవద్గీత’ మతం కాదు - జ్ఞానం !\n
+’భగవద్గీత’ ఉత్తమ జీవన విధాన మార్గము ! ఉన్నత వ్యక్తిత్వ వికాస గ్రంథము !\n
+’భగవద్గీత’ మానవులకు ఆశాదీపము ! సాధకులకు కల్పవృక్షము !\n
+    </string>
+    <string name="alert_individul">Buy Single Chapter at\n 111/- each</string>
+    <string name="alert_all">Buy 18  Chapters at \n 1850/-</string>
+    <string name="alertdialogName"><b>Bhagavadgita Foundation\n runs on the funds earned by \n sales of the video. You Can \n select any one of the following:</b></string>
+    <string name="parayanam"><b>COMPLETE 30 MINUTES AUDIO OF \nBHAGAVADGITA PARAYANAM BY \nGANGADHARA SASTRY.L.V</b></string>
+
+    <!--About Sponsers.............-->
+    <string-array name="mainnames">
+        <item>PRINCIPAL SPONCER</item>
+        <item> 1.  ARJUNAVISHADA YOGAMU</item>
+        <item>2.  SANKHYA YOGAMU</item>
+        <item> 3.  KARMA YOGAMU </item>
+        <item> 4.  JNANA YOGAMU</item>
+        <item> 5.  KARMA SANNYASA YOGAMU  </item>
+        <item> 6.  ATMASAMYAMA YOGAMU</item>
+        <item>7.  VIJNANA YOGAMU </item>
+        <item>8.  AKSHARA BRAHMA YOGAMU </item>
+        <item>9.  RAJAVIDYA RAJA GUHYA YOGAMU</item>
+        <item> 10.  VIBHOOTHI YOGAMU   </item>
+        <item>11.  VISWAROOPA SANDARSANA YOGAMU</item>
+        <item>12.  BHAKTHI YOGAMU </item>
+        <item>13.  KSHETRA KSHETRAJNA VIBHAGA YOGAMU </item>
+        <item> 14.  GUNATRAYA VIBHAGA YOGAMU </item>
+        <item>15.  PURUSHOTTAMAPRAPTHI YOGAMU </item>
+        <item>16.  DYVASURA SAMPADWIBHAGA YOGAMU</item>
+        <item>17.  SRADDHATRAYA VIBHAGA YOGAMU </item>
+        <item> 18.  MOKSHA SANNYASA YOGAMU </item>
+        <item>GITHA CHANTING SPONSOR</item>
+    </string-array>
+    <string-array name="sponsernames">
+        <item>Sri C. Visweswara Rao\n
+Chairman, Navayuga Group.</item>
+        <item>Sri. KARUNAKAR ASIREDDY, Smt.  PRASANTHI ASIREDDY\n
+( ATLANTA ) - USA</item>
+        <item>Smt. B. UMA SASI, Sri. B.K. SARMA \n
+(HYDERABAD) - INDIA</item>
+        <item>Dr. RAJAGOPALA RAO  RANGINENI, Smt. ARUNA  RANGINENI\n
+(KANSAS CITY) - USA</item>
+        <item>Sri. YERRAMILLI VENKATA RAO, Smt. KRISHNA VENI\n
+(HYDERABAD ) - INDIA</item>
+        <item>Sri. HARIBABU, Smt. VENKATA LAKSHMI\n
+LAHARI  ESTATES, \n(HYDERABAD) -INDIA</item>
+        <item> Sri. SAMBASIVA RAO VENIGALLA, \nDr. MAHALAKSHMI VENIGALLA\n
+(NEW YORK ) - U.S.A.</item>
+        <item>Sri. MALLIKARJUNA RAO  GRANDHI, Smt. VARALAKSHMI GRANDHI\n
+G.M.R. FOUNDATION \n(HYDERABAD ) - INDIA </item>
+        <item>SRI. NAGESWARA RAO MANDAVA, Smt. LAKSHAMI MANDAVA \n
+( NEW YORK ) - U.S.A.</item>
+        <item>Dr. NARSINGRAO PALEP, Smt. USHA  PALEP  \n
+(PANAMA CITY- FLORIDA)- USA</item>
+        <item>Sri. RAMANA MURTHY  GOSUKONDA,  Dr. PRAMODINI GOSUKONDA  \n
+( ATLANTA ) - USA</item>
+        <item>HINDU  TEMPLE OF ATLANTA USA</item>
+        <item>Sri. Vemulapalli Ramachandra Rao - Smt. Vijaya Bharathi\n
+TIRUVUR, \nKrishna district, Andhrapradesh - INDIA</item>
+        <item>Sri. RAMESH BABU GAVIRNENI, Smt. RAJYALAKSHMI GAVIRNENI \n
+(Doha) - QATAR</item>
+        <item> SRI. RAMAKRISHNA LAVU SMT. BEENADEVI LAVU  \n
+(DALLAS) USA </item>
+        <item>SRI. DOONDI-MASCOW- RUSSIA</item>
+        <item>Sri. BOLLINENI KRISHNAYYA - Smt. SUJATHA-\nHYDERABAD</item>
+        <item>Ravuri Radha Krishna, Ratnamani, RVRao \nand Vakula Devi,\n
+Visakhapatnam,  Bahrain </item>
+        <item> Sri. PRABHAKARA REDDY KALIKI Smt. JYOTHI KALIKI\n
+(HOT SPRINGS) - USA </item>
+        <item>Sri Srini Raju - INDIA Dedicated This Sampoorna Gita Ramayanam CD to his Parents\n
+Sri Anjiraju, Smt Kamalamma</item>
+    </string-array>
+
+    <!--- About Foundation...........-->
+
+    <string name="aboutfoundation">
+        The Bhagavadgita Foundation is a non-profit making spiritual and social service organization established with the object of disseminating the inspiring message of Bhagavadgita universally. The inaugural function of this Foundation took place at Ravindra Bharathi, Hyderabad on the 19th January, 2008 through the auspicious hands of Sri Sri Sri Tridandi China Srimannarayana Ramanuja Jeeyar Swami. There is a pressing need to view Bhagavadgita as a manual for an ethical, noble and ideal way of life and as an outstanding work on personality development. With this object in mind, teaching Bhagavadgita, explaining its essentiality in real life from the childhood itself, has been set as the primary goal by the Foundation. This Foundation which has already become popular among the public with its service-oriented activities also intends to take up the following initiatives:
+ </string>
+    <string name="aboutfou1">
+          <b> Establishing BHAGAVADGITA UNIVERSITY as a \n
+     Centre for spiritual and social servcies \n
+       UNDER THE AEGIS OF BHAGAVADGITA FOUNDATION</b>
+    </string>
+    <string name="aboutfou2">
+          1.Recording the lofty spiritual, ethical and cultural values of India in the form of CDs and propagating them.\n
+    2.Conducting classes on personality development based on the teachings of Bhagavadgita.\n
+    3.Helping physically challenged persons.\n
+    4.Extending free education to orphaned children.\n
+    5.Helping the uncared for old people.\n
+    6.Establishing ‘Gosalas’ (to protect uncared for cows).\n
+    7.Promoting Ayurveda, the ancient Indian system of medicine an propagating traditional cures for simple ailments\n
+    8.Organizing free medical camps\n
+    9.Conducting YOGA classes.\n
+    10.Conducting Sanskrit classes and conserving and propagating Vedic knowledge and Sastras which should eventually lead to the sublime goal of us...\n
+    </string>
+    <string name="aboutfou3">
+        <b>INDIAN DONORS CAN SEND THEIR DONATIONS TO</b>\n\n
+        "BHAGAVADGITA FOUNDATION"\n
+        ANDHRA BANK,\n
+        SRINIVASAPURAM BRANCH,\n
+        RAMANTHAPUR,\n
+        HYDERABAD-INDIA.\n
+        A/c No: 111010100015443\n
+        IFS CODE : ANDB0001110\n
+        PAN No : AAAAB5882A\n\n
+
+         <b>FOREIGN DONORS CAN SEND THEIR DONATIONS TO</b>\n\n
+        "BHAGAVADGITA FOUNDATION"\n
+        STATE BANK OF INDIA,\n
+        OVER SEAS BRANCH,\n
+        HYDERABAD - INDIA.\n
+        A/c.No : 30147152920\n
+        IFS CODE : SBIN0001921\n
+        SWIFT CODE : SBININBB134\n
+        PAN No : AAAAB5882A \n\n
+
+        <b>BOTH INDIAN AND FOREIGN DONORS CAN ALSO SEND THEIR DONATIONS IN THE NAME OF \n"<u>BHAGAVADGITA FOUNDATION</u>"\n BY CHEQUE OR D.D TO THE BELOW ADDRESS</b>\n\n
+        BHAGAVADGITA FOUNDATION\n
+        C/o. GANGADHARA SASTRY L.V\n
+        (Playback Singer - Music Director\n
+        Founder Chairmen Bhagavadgita Foundation)\n
+        # 3-1-74/3/A ,\n
+        Ghantasala Swara Soudham,\n
+        Ramasankara Nagar, Ramanthapur,\n
+        Hyderabad-500 013,\n
+        Telangana, INDIA.\n
+         Office: +91 40 - 65456555, 66686555\n
+         gitafoundation2008@gmail.com\n
+         www.bhagavadgitafoundation.org\n
+    </string>
+    <string name="aboutfou4">
+        *Donations to BHAGAVADGITA FOUNDATION are exempt from Income Tax U/s 80G(5)(VI) OF I.T.ACT. We have the permission of the Ministry of Home Affairs of Govt. of India to receive Foreign donations.\n(FCRA Regn. No: 010220252), PAN: AAAAB5882A
+    </string>
+
 
 </resources>

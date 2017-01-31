@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.murali.hariprahlad.bhagavathgita.fragments.ChatingFragment">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/parayanam"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:text="@string/parayanam"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/buy"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/parayanam"
+            android:id="@+id/imageView5" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gangadharshastry"
+                android:id="@+id/imageView6" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:text="BHAGAVADGITA PARAYANAM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:gravity="center"
+                    android:typeface="serif"
+                    android:layout_weight="3" />
+
+                <TextView
+                    android:text="SINGER : GANGADHARA SASTRY.L.V"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+
+                    android:typeface="serif"
+                    android:layout_weight="3" />
+                <TextView
+                    android:text="MUSIC BY: BGF STUDIOS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5"
+                    android:typeface="serif"
+                    android:layout_weight="3" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+
+            android:background="@color/colorPrimary">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:text="BHAGAVATDGITA PARAYANAM"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:typeface="serif"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/alertTextcolor"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/btn_play"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+                        <TextView
+                            android:id="@+id/songCurrentDurationLabel"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffff"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="50dp"
+                            android:layout_alignBottom="@+id/songProgressBar"
+                            />
+                        <TextView
+                            android:id="@+id/songTotalDurationLabel"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:textColor="#04cbde"
+                            android:textStyle="bold"
+                            android:layout_alignBottom="@+id/songProgressBar"
+                            android:layout_alignParentRight="true"/>
+
+                        <SeekBar
+                            android:id="@+id/songProgressBar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:thumb="@drawable/seek_handler"
+                            android:progressDrawable="@drawable/seekbar_progress"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="16dp" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

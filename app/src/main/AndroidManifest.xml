@@ -8,9 +8,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activitys.SplashActivity"
+        <activity android:name=".activitys.HomeActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/MyMaterialTheme">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,10 +24,22 @@
         <activity android:name=".activitys.RegisterActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:screenOrientation="sensor"/>
-        <activity android:name=".activitys.HomeActivity"
+        <activity android:name=".activitys.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MyMaterialTheme">
         </activity>
+        <activity android:name=".activitys.AboutBhagavadgitaActivity"></activity>
+        <activity android:name=".activitys.AboutAppActivity"></activity>
+        <activity android:name=".activitys.AboutSponsersActivity"
+            android:screenOrientation="sensor"></activity>
+        <activity android:name=".activitys.AboutFoundationActivity"></activity>
+        <activity android:name=".activitys.GalleryActivity"></activity>
+        <activity android:name=".activitys.GitaJayanthiCelActivity"></activity>
+        <activity android:name=".activitys.DonateActivity"></activity>
     </application>
-
+    <supports-screens android:largeScreens="true"></supports-screens>
+    <supports-screens android:normalScreens="true"></supports-screens>
+    <supports-screens android:smallScreens="true"></supports-screens>
+    <supports-screens android:xlargeScreens="true"></supports-screens>
+    <supports-screens android:resizeable="true"></supports-screens>
 </manifest>

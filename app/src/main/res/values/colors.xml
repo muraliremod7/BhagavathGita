@@ -4,10 +4,11 @@
     <color name="colorPrimaryDark">#9E2021</color>
     <color name="colorAccent">#c23839</color>
     <color name="textColorPrimary">#fcec5c</color>
-    <color name="colorwindowbackground">#9E2021</color>
+    <color name="colorwindowbackground">#9f2021</color>
     <color name="ButtonColor">#FFF176</color>
-    <color name="textColor">#9E2021</color>
+    <color name="textColor">#9f2021</color>
     <color name="textHintColor">#d74546</color>
     <color name="textColorHighlight">#FFF176</color>
     <color name="alertTextcolor">#ffff</color>
+    <color name="aboutfou">#0000FF</color>
 </resources>

@@ -1,32 +1,26 @@
 package com.murali.hariprahlad.bhagavathgita.activitys;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.Animatable;
+import android.graphics.drawable.Drawable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.murali.hariprahlad.bhagavathgita.R;
-import com.murali.hariprahlad.bhagavathgita.fragments.AboutAppFragment;
-import com.murali.hariprahlad.bhagavathgita.fragments.AboutBhagavadgitaFragment;
-import com.murali.hariprahlad.bhagavathgita.fragments.AboutFoundationFragment;
-import com.murali.hariprahlad.bhagavathgita.fragments.AboutSponsersFragment;
 import com.murali.hariprahlad.bhagavathgita.fragments.ChatingFragment;
-import com.murali.hariprahlad.bhagavathgita.fragments.DonateFragment;
-import com.murali.hariprahlad.bhagavathgita.fragments.GalleryFragment;
-import com.murali.hariprahlad.bhagavathgita.fragments.GitaJayanthiCelFragment;
 import com.murali.hariprahlad.bhagavathgita.fragments.LearningGitaFragment;
 import com.murali.hariprahlad.bhagavathgita.fragments.TodaysLearningFragment;
 
@@ -38,6 +32,7 @@ public class HomeActivity extends AppCompatActivity implements TabLayout.OnTabSe
     private TabLayout tabLayout;
     private ViewPager viewPager;
     private String[] FRAGMENT_NAME = {"CHANTING", "LEARNING GEETA", "TODAYS LEARNING"};
+    private Menu menu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,66 +55,49 @@ public class HomeActivity extends AppCompatActivity implements TabLayout.OnTabSe
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_menu, menu);
-
-        return super.onCreateOptionsMenu(menu);
+        super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        this.menu = menu;
+        return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Drawable drawable = item.getIcon();
+        if (drawable instanceof Animatable) {
+            ((Animatable) drawable).start();
+        }
         FragmentTransaction mFragmentTransaction;
         FragmentManager mFragmentManager;
         mFragmentManager = getSupportFragmentManager();
         switch (item.getItemId()){
             case R.id.foudation:
-                mFragmentTransaction = mFragmentManager.beginTransaction();
-                mFragmentTransaction.replace(R.id.show_frame, new AboutFoundationFragment());
-                mFragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                mFragmentTransaction.addToBackStack(null);
-                mFragmentTransaction.commit();
+                Intent intentfoundation = new Intent(HomeActivity.this,AboutFoundationActivity.class);
+                startActivity(intentfoundation);
                 return true;
             case R.id.bhagavathgeeta:
-                mFragmentTransaction = mFragmentManager.beginTransaction();
-                mFragmentTransaction.replace(R.id.show_frame, new AboutBhagavadgitaFragment());
-                mFragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                mFragmentTransaction.addToBackStack(null);
-                mFragmentTransaction.commit();
+                Intent intentbha = new Intent(HomeActivity.this,AboutBhagavadgitaActivity.class);
+                startActivity(intentbha);
                 return true;
             case R.id.gitajayanthi:
-                mFragmentTransaction = mFragmentManager.beginTransaction();
-                mFragmentTransaction.replace(R.id.show_frame, new GitaJayanthiCelFragment());
-                mFragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                mFragmentTransaction.addToBackStack(null);
-                mFragmentTransaction.commit();
+                Intent intentgita = new Intent(HomeActivity.this,GitaJayanthiCelActivity.class);
+                startActivity(intentgita);
                 return true;
             case R.id.donate:
-                mFragmentTransaction = mFragmentManager.beginTransaction();
-                mFragmentTransaction.replace(R.id.show_frame, new DonateFragment());
-                mFragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                mFragmentTransaction.addToBackStack(null);
-                mFragmentTransaction.commit();
+                Intent intentdonate = new Intent(HomeActivity.this,DonateActivity.class);
+                startActivity(intentdonate);
                 return true;
             case R.id.gallery:
-                mFragmentTransaction = mFragmentManager.beginTransaction();
-                mFragmentTransaction.replace(R.id.show_frame, new GalleryFragment());
-                mFragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                mFragmentTransaction.addToBackStack(null);
-                mFragmentTransaction.commit();
+                Intent intentgallery = new Intent(HomeActivity.this,GalleryActivity.class);
+                startActivity(intentgallery);
                 return true;
             case R.id.sponsers:
-                mFragmentTransaction = mFragmentManager.beginTransaction();
-                mFragmentTransaction.replace(R.id.show_frame, new AboutSponsersFragment());
-                mFragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                mFragmentTransaction.addToBackStack(null);
-                mFragmentTransaction.commit();
+                Intent intentsponsers = new Intent(HomeActivity.this,AboutSponsersActivity.class);
+                startActivity(intentsponsers);
                 return true;
             case R.id.aboutapp:
-                mFragmentTransaction = mFragmentManager.beginTransaction();
-                mFragmentTransaction.replace(R.id.show_frame, new AboutAppFragment());
-                mFragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-                mFragmentTransaction.addToBackStack(null);
-                mFragmentTransaction.commit();
+                Intent intentapp = new Intent(HomeActivity.this,AboutAppActivity.class);
+                startActivity(intentapp);
                 return true;
             default:
 
